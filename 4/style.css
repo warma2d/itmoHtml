@@ -1,0 +1,61 @@
+@import url("grid.css");
+
+body
+{
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.menu
+{
+    background-color: silver;
+    height: 50px;
+}
+
+.slider
+{
+    background-color: whitesmoke;
+    height: 200px;
+}
+
+.slider li
+{
+    display: none;
+}
+
+.sliderText 
+{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+
+.slider li img
+{
+    width: 350px;
+}
+
+.slider li.active
+{
+    display: block;
+}
+
+.container 
+{
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.cell {
+    border: 1px solid black;
+    height: 200px;
+    margin: 5px;
+    background-color: orange;
+}
+
+.rightCell 
+{
+    border: 1px solid black;
+    height: 624px;
+    margin: 5px;
+}

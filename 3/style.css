@@ -1,0 +1,173 @@
+body
+{
+    background-image: url(theme.png);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin:0;
+/*    background-color: #fafafa;*/
+}
+
+#nav
+{
+    width:100%;
+    height: 70px;
+    background-color:silver;
+    padding: 10px 0px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+
+#nav li
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+#nav li a
+{
+    display: block;
+    height: 50px;
+    width: 150px;
+    background-color: wheat;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#nav li a:hover
+{
+    background-color: orange;
+}
+
+#nav li a.active
+{
+    font-weight: bold;
+}
+
+#container
+{
+    width: 100%;
+    height: 100%;
+/*    background-color: #fafafa;*/
+    font-size: 20px;
+}
+
+#content
+{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 50px;
+}
+
+h1
+{
+    float: left;
+}
+
+h2
+{
+    float: right;
+}
+
+.page1 figure
+{
+    margin-top: 600px;
+}
+
+fieldset.auth
+{
+    width: 250px;
+    margin: 0 auto;
+}
+
+fieldset.auth input
+{
+    width: 150px;
+    float: right;
+}
+
+fieldset.auth div
+{
+    margin-top: 5px;
+}
+
+fieldset.auth input[type=button]
+{
+    width: 100px;    
+}
+
+.mt
+{
+    margin-top: 15px;
+}
+
+
+.articleImg img
+{
+    width: 200px;
+}
+
+.articleHeader
+{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.articleImg
+{
+    margin-top: 25px;
+}
+
+.articleReadMore
+{
+    text-align: right;
+}
+
+.articleReadMore a
+{
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    background-color: #f5deb3;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.articleReadMore a:hover
+{
+    background-color: #ffdeb3;
+}
+
+.articleBy
+{
+    font-size:small;
+}
+
+.articleBy a
+{
+    color:orange;
+}
+
+.date
+{
+    padding-left: 10px;    
+}

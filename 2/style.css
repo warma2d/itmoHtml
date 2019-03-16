@@ -1,0 +1,88 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    background-color: #fafafa;
+}
+
+#nav
+{
+    width:100%;
+    height: 70px;
+    background-color:silver;
+    padding: 10px 0px;
+}
+
+.clear
+{
+    clear: both;
+}
+
+
+#nav li
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 25px;
+    padding-left: 25px;
+}
+
+#container
+{
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    font-size: 20px;
+}
+
+#content
+{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h1
+{
+    float: left;
+}
+
+h2
+{
+    float: right;
+}
+
+.page1 figure
+{
+    margin-top: 600px;
+}
+
+fieldset.auth
+{
+    width: 250px;
+    margin: 0 auto;
+}
+
+fieldset.auth input
+{
+    width: 150px;
+    float: right;
+}
+
+fieldset.auth div
+{
+    margin-top: 5px;
+}
+
+fieldset.auth input[type=button]
+{
+    width: 100px;    
+}
+
+.mt
+{
+    margin-top: 15px;
+}
