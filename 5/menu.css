@@ -1,0 +1,61 @@
+.menu
+{
+	list-style-type:none;	
+}
+.menu li
+{
+	float:left;
+	display:block;
+	width:100px;
+	height:30px;
+	background-color:orange;
+	margin:auto 10px;
+	text-align:center;
+}
+.menu ul
+{
+	display:none;
+}
+
+#key:hover > ul,
+#comp:hover > ul
+{	
+	display:block;
+	position:relative;
+	top:10px;
+	left:-50px;
+}
+
+#key:hover > ul > li,
+#comp:hover > ul > li
+{	
+	background-color:red;
+	border-bottom:2px solid black;
+}
+
+#ps2:hover > ul,
+#usb:hover > ul,
+#bt:hover > ul,
+
+#mono:hover > ul,
+#note:hover > ul,
+#ultra:hover > ul
+{	
+	display:block;
+	position:relative;
+	top:-18px;
+	left:50px;
+}
+
+#ps2:hover > ul > li,
+#usb:hover > ul > li,
+#bt:hover > ul > li,
+
+#mono:hover > ul > li,
+#note:hover > ul > li,
+#ultra:hover > ul > li
+{	
+	background-color:green;
+	border-bottom:2px solid black;
+	width:160px;
+}
